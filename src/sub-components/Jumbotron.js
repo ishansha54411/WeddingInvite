@@ -1,5 +1,6 @@
 import React from 'react'
 import CountDown from './CountDown';
+import backgroundImage from '../images/BG-Img.jpeg'
 
 
 const Jumbotron=({title,desc,date})=>{
@@ -19,7 +20,7 @@ const Jumbotron=({title,desc,date})=>{
 		</div>
 	</nav>
 
-	<header id="fh5co-header" className="fh5co-cover" role="banner" style={{backgroundImage:'url(images/BG-Img.jpeg'}} data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" className="fh5co-cover" role="banner" style={{backgroundImage:`url(${backgroundImage})`}}>
 		<div className="overlay"></div>
 		<div className="container">
 			<div className="row">

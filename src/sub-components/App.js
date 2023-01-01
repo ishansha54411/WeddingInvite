@@ -3,7 +3,10 @@ import Footer from "./Footer";
 import Invite from "./Invite";
 import Jumbotron from "./Jumbotron";
 import TimeLine from "./Timeline";
-
+import FirstMeet from '../images/J51A2354.JPG'
+import FirstDate from '../images/FirstDate.jpeg'
+import Engagement from '../images/BG-Img.jpeg'
+import SecondDate from '../images/3B1A82E4-1C9D-461D-94A1-B1BC1505CB42.jpeg'
 const App=()=>{
     return (<div>
         <Jumbotron 
@@ -21,10 +24,10 @@ const App=()=>{
             message="Together Forever"
             desc="Time passes but memories are forever."
             timeline={[
-                    {image:'J51A2354.jpg',title:'Fist Meet',date:'September 28, 2022',desc:''},
-                    {image:'FirstDate.jpeg',title:'First Date',date:'October 21, 2022',desc:''},
-                    {image:'BG-Img.jpeg',title:'Engagement',date:'December 11, 2022',desc:''},
-                    {image:'3B1A82E4-1C9D-461D-94A1-B1BC1505CB42.jpeg',title:'Second Date',date:'December 18, 2022',desc:''}
+                    {image:FirstMeet,title:'Fist Meet',date:'September 28, 2022',desc:''},
+                    {image:FirstDate,title:'First Date',date:'October 21, 2022',desc:''},
+                    {image:Engagement,title:'Engagement',date:'December 11, 2022',desc:''},
+                    {image:SecondDate,title:'Second Date',date:'December 18, 2022',desc:''}
                 ]}/>
         <Footer/>
     </div>)

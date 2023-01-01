@@ -14,8 +14,9 @@ const TimeLine=({title,message,desc,timeline})=>{
 				<div className="col-md-12 col-md-offset-0">
 					<ul className="timeline animate-box">
                         {timeline.map((value,index)=>{
+                            // console.log(value.image)
                             return (<li className={`animate-box ${index%2===0?'':'timeline-inverted'}`} key={index}>
-                                <div className="timeline-badge" style={{backgroundImage:`url(images/${value.image})`}}></div>
+                                <div className="timeline-badge" style={{backgroundImage:`url(${value.image})`}}></div>
                                 <div className="timeline-panel">
                                     <div className="timeline-heading">
                                         <h3 className="timeline-title">{value.title}</h3>
