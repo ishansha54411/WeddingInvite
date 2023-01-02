@@ -24,7 +24,7 @@ const App=()=>{
             message="Together Forever"
             desc="Time passes but memories are forever."
             timeline={[
-                    {image:FirstMeet,title:'Fist Meet',date:'September 28, 2022',desc:''},
+                    {image:FirstMeet,title:'First Meet',date:'September 28, 2022',desc:''},
                     {image:FirstDate,title:'First Date',date:'October 21, 2022',desc:''},
                     {image:Engagement,title:'Engagement',date:'December 11, 2022',desc:''},
                     {image:SecondDate,title:'Second Date',date:'December 18, 2022',desc:''}
